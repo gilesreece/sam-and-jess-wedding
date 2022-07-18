@@ -1,0 +1,10 @@
+{
+  "name": "sam-and-jess-wedding",
+  "version": "1.0.0",
+  "description": "Sam and Jess wedding website",
+  "main": "src/index.js",
+  "repository": "https://github.com/gilesreece/sam-and-jess-wedding.git",
+  "author": "Reece Giles <me@reecegiles.com>",
+  "license": "MIT",
+  "private": false
+}
