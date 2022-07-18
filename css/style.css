@@ -10529,7 +10529,8 @@ textarea.form-control {
   font-size: 50px;
   color: #f67e7d;
 }
-.place .text .btn-custom {
+
+.btn-custom {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 600;
