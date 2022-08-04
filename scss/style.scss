@@ -9,7 +9,8 @@ $white: #fff;
 $black: #000000;
 $darken: #232931;
 
-$primary: #f67e7d;
+//$primary: #f67e7d;
+$primary: #9CAF88;
 $secondary: #dcf4e6;
 
 
@@ -28,10 +29,12 @@ $secondary: #dcf4e6;
   -ms-transition: all $transition ease;
   transition: all $transition ease;
 }
-
+* {
+  box-sizing: border-box;
+}
 
 html {
-  // overflow-x: hidden;
+   overflow-x: hidden;
 }
 
 body {
