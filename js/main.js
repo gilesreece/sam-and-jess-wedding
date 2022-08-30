@@ -84,7 +84,7 @@
 	
 
 	var carousel = function() {
-		$('.carousel-friends').owlCarousel({
+		$('.carousel-bride').owlCarousel({
 			autoplay: true,
 			autoHeight: true,
 			center: true,
@@ -92,6 +92,8 @@
 			items:1,
 			margin: 30,
 			stagePadding: 0,
+			smartSpeed: 250,
+			autoplayTimeout: 2000,
 			nav: false,
 			dots: true,
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
@@ -108,7 +110,7 @@
 			}
 		});
 
-		$('.carousel-testimony').owlCarousel({
+		$('.carousel-groom').owlCarousel({
 			autoplay: true,
 			autoHeight: true,
 			center: true,
@@ -116,7 +118,10 @@
 			items:1,
 			margin: 30,
 			stagePadding: 0,
+			smartSpeed: 250,
+			autoplayTimeout: 2000,
 			nav: false,
+			rtl: true,
 			dots: true,
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
 			responsive:{
@@ -127,7 +132,7 @@
 					items: 2
 				},
 				1000:{
-					items: 3
+					items: 5
 				}
 			}
 		});
@@ -328,6 +333,8 @@
 }
 
 setInterval(function() { makeTimer(); }, 1000);
+
+
 
 })(jQuery);
 
