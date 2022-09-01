@@ -1,4 +1,4 @@
-var apiUrl = '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'
+var apiUrl = ''
 
 $(document).ready(function() {
     $('#form-guest-number').change(function() {
