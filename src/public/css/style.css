@@ -10014,8 +10014,8 @@ h5,
   width: 100%;
 }
 .video-hero .text .icon span {
-  line-height: 0;
-  font-size: 14vw;
+  line-height: 1;
+  font-size: 10vw;
   color: #fff;
 }
 .video-hero .text .subheading {
@@ -10051,7 +10051,7 @@ h5,
 }
 .video-hero .text h1 {
   font-family: "Great Vibes", cursive;
-  font-size: 9vw;
+  font-size: 7vw;
   color: #fff;
 }
 
@@ -10105,7 +10105,7 @@ h5,
 }
 
 .form-control {
-  height: 52px !important;
+  height: 52px;
   background: #fff !important;
   color: rgba(0, 0, 0, 0.7);
   font-size: 16px;
@@ -10137,7 +10137,7 @@ h5,
 }
 
 textarea.form-control {
-  height: inherit !important;
+  height: auto;
 }
 
 .ftco-animate {
@@ -10326,6 +10326,8 @@ textarea.form-control {
   border: 1px solid rgba(0, 0, 0, 0.15);
   z-index: -1;
   transform: rotate(-1deg);
+  background-color: #fff;
+  opacity: 0.7;
 }
 .bride-groom:after {
   position: absolute;
@@ -10337,6 +10339,8 @@ textarea.form-control {
   border: 1px solid rgba(0, 0, 0, 0.15);
   z-index: -1;
   transform: rotate(1deg);
+  background-color: #fff;
+  opacity: 0.7;
 }
 .bride-groom .img {
   display: block;
@@ -10548,11 +10552,9 @@ textarea.form-control {
 }
 
 .rsvp-form {
-  padding: 70px 50px 50px 50px;
+  text-align: center;
+  padding: 2em;
   background: #fff;
-}
-.rsvp-form .form-group {
-  margin-bottom: 30px;
 }
 .rsvp-form .select-wrap {
   position: relative;
@@ -10566,6 +10568,10 @@ textarea.form-control {
 }
 .rsvp-form .select-wrap select {
   appearance: none;
+}
+.rsvp-form .input-group-text label {
+  width: 100%;
+  text-align: left;
 }
 
 .gallery {

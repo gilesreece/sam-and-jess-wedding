@@ -48,17 +48,18 @@
    // Burger Menu
 	var burgerMenu = function() {
 
-		$('body').on('click', '.js-fh5co-nav-toggle', function(event){
+		$('body').click(() => {
+			// event.preventDefault();
 
-			event.preventDefault();
+			//@TODO
 
 			if ( $('#ftco-nav').is(':visible') ) {
 				$(this).removeClass('active');
 			} else {
-				$(this).addClass('active');	
+				$(this).addClass('active');
 			}
+		})
 
-		});
 
 	};
 	burgerMenu();

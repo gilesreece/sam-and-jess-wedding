@@ -453,8 +453,8 @@ h5,
 
     .icon {
       span {
-        line-height: 0;
-        font-size: 14vw;
+        line-height: 1;
+        font-size: 10vw;
         color: $white;
       }
     }
@@ -495,7 +495,7 @@ h5,
 
     h1 {
       font-family: $font-secondary;
-      font-size: 9vw;
+      font-size: 7vw;
       color: $white;
     }
   }
@@ -554,7 +554,7 @@ h5,
 }
 
 .form-control {
-	height: 52px!important;
+	height: 52px;
 	background: $white!important;
 	color: rgba(0,0,0,.7);
 	font-size: 16px;
@@ -581,7 +581,7 @@ h5,
 	}
 }
 textarea.form-control {
-	height: inherit!important;
+	height: auto;
 }
 
 .ftco-animate {
@@ -801,6 +801,8 @@ textarea.form-control {
     border: 1px solid rgba(0, 0, 0, .15);
     z-index: -1;
     transform: rotate(-1deg);
+    background-color: #fff;
+    opacity: 0.7;
   }
 
   &:after {
@@ -813,6 +815,8 @@ textarea.form-control {
     border: 1px solid rgba(0, 0, 0, .15);
     z-index: -1;
     transform: rotate(1deg);
+    background-color: #fff;
+    opacity: 0.7;
   }
 
   .img {
@@ -1082,10 +1086,11 @@ textarea.form-control {
 
 //RSVP
 .rsvp-form{
-	padding: 70px 50px 50px 50px;
+  text-align: center;
+	padding: 2em;
 	background: $white;
 	.form-group{
-		margin-bottom: 30px;
+
 	}
 	.select-wrap{
 		position: relative;
@@ -1100,6 +1105,12 @@ textarea.form-control {
 			appearance: none;
 		}
 	}
+  .input-group-text {
+    label {
+      width: 100%;
+      text-align: left;
+    }
+  }
 }
 
 
