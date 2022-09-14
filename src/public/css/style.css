@@ -10573,6 +10573,9 @@ textarea.form-control {
   width: 100%;
   text-align: left;
 }
+.rsvp-form .error {
+  color: #ac0000;
+}
 
 .gallery {
   width: 100%;

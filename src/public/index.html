@@ -121,7 +121,7 @@
 <!-- End invitation -->
 
 <!-- Start bride and groom -->
-<section class="ftco-section " style="height: 1100px; background-image: url(/images/santorini.webp); background-size:cover; background-position: top center;"
+<section class="ftco-section" style="height: 1100px; background-image: url(/images/santorini.webp); background-size:cover; background-position: top center;"
          data-stellar-background-ratio="0.5" data-stella-background-overlay="0.5">
     <!--<div class="overlay-top" style="background-image: url(/images/banner.jpeg);"></div>
     <div class="overlay-bottom" style="background-image: url(/images/banner.jpeg);"></div>-->
@@ -558,7 +558,21 @@
         <div class="row justify-content-center">
             <div class="col-md-10">
                 <div class="container-fluid">
-                    <form method="POST" enctype="multipart/form-data" class="rsvp-form ftco-animate" id="form-to-send">
+                    <form method="POST" autocomplete="on" enctype="application/x-www-form-urlencoded" class="rsvp-form ftco-animate" id="form-to-send">
+                        <div class="row mb-3 justify-content-center">
+                            <div class="col-md-4 mb-2">
+                                <a href="/images/menu.jpg" id="see-menu-button"
+                                   class="btn-custom image-popup d-flex align-items-center justify-content-center">
+                                    See full menu
+                                </a>
+                            </div>
+                            <div class="col-md-4 mb-2">
+                                <a href="/images/menu.jpg" id="see-menu-button-download" download="menu.jpg"
+                                   class="btn-custom d-flex align-items-center justify-content-center">
+                                    Download menu
+                                </a>
+                            </div>
+                        </div>
                         <div class="row mb-4">
                             <div class="col-md-12">
                                 <label for="form-attending">Attending?</label>
@@ -576,7 +590,7 @@
                         </div>
                         <div id="person-attending-div"></div>
                         <div class="col-md-12">
-                            <input type="submit" value="submit" name="action" class="btn btn-primary py-3 px-5">
+                            <input type="submit" class="btn btn-primary py-3 px-5">
                         </div>
                     </form>
                 </div>
